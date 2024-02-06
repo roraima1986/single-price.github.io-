@@ -8,42 +8,65 @@
   
   <title>Frontend Mentor | Single Price Grid Component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <!--Fuente-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+  <!--CSS-->  
+  <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-  Join our community
+  
+  <main class="main">
+    <div class="main__layout">
 
-  30-day, hassle-free money back guarantee
+      <!--header-->
+      <header class="header">
+        <h1 class="header__title">Join our community</h1>
+        <h2 class="header__subtitle">30-day, hassle-free money back guarantee</h2>
 
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.
+        <p class="header__description">
+          Gain access to our full library of tutorials along with expert code reviews. Perfect for any developers who are serious about honing their skills.
+        </p>
+      </header>
 
-  Monthly Subscription
+      <!--cuadricula bottom left-->
+      <section class="bottom__left">
+        <h3 class="title">Monthly Subscription</h3>
 
-  &dollar;29 per month
+        <div class="price__container">
+          <span class="price">&dollar;29</span> per month
+        </div>
 
-  Full access for less than &dollar;1 a day
+        <p class="description">
+          Full access for less than &dollar;1 a day
+        </p>
 
-  Sign Up
+        <button type="button" class="btn">Sign Up</button>
+      </section>
 
-  Why Us
+      <!--cuadricula bottom right-->
+      <section class="bottom__right">
+        <h3 class="title"> Why Us</h3>
 
-  Tutorials by industry experts
-  Peer &amp; expert code review
-  Coding exercises
-  Access to our GitHub repos
-  Community forum
-  Flashcard decks
-  New videos every week
+        <ul class="list">
+          <li class="list__item">Tutorials by industry experts</li>
+          <li class="list__item">Peer &amp; expert code review</li>
+          <li class="list__item">Coding exercises</li>
+          <li class="list__item">Access to our GitHub repos</li>
+          <li class="list__item">Community forum</li>
+          <li class="list__item">Flashcard decks</li>
+          <li class="list__item">New videos every week</li>
+        </ul>
+      </section>
+
+    </div>
+  </main>  
   
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">Roraima Lugo</a>.
     </p>
   </footer>
 </body>
